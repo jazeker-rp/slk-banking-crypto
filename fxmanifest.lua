@@ -1,11 +1,11 @@
 fx_version 'cerulean'
 game 'gta5'
 
-description 'QB-Crypto'
+description 'slk-Crypto'
 version '1.2.1'
 
 shared_scripts {
-    '@qb-core/shared/locale.lua',
+    '@slk-core/shared/locale.lua',
     'locales/en.lua',
     'locales/*.lua',
     'config.lua'
@@ -16,6 +16,6 @@ server_scripts {
 }
 client_script 'client/main.lua'
 
-dependency 'mhacking'
+dependency 'slk-minigame-hacking'
 
 lua54 'yes'
